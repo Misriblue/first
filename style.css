@@ -1,0 +1,185 @@
+
+      .container {
+        background: #ffff;
+        max-width: 1200px;
+        padding: 7px 10px;
+        margin: 0 auto;
+        margin-top: 15px;
+        border: 2px;
+
+        border-radius: 20px;
+      }
+      body {
+        background:linear-gradient(110.3deg, rgb(238, 179, 123) 8.7%, rgb(216, 103, 77) 47.5%, rgb(114, 43, 54) 89.1%);
+        margin-top: 3px;
+        margin-bottom: 40px;
+        padding-top: 10px;
+        padding-right: 5px;
+        font-family: "Times New Roman", Times, serif;
+      }
+      .paragraph{
+        font-size: 21px;
+        color: rgb(216, 103, 77);
+        font-style: italic;
+      }
+       .margin {
+        padding: 1px;
+        padding: 5px;
+      }
+       #myEmail {
+        display: inline-block;
+        font-size: 12px;
+        background: white;
+        color:  rgb(216, 103, 77) ;
+        font-style: italic;
+        font-weight: bolder;
+        border-radius: 5px;
+      }
+      #myEmail:hover {
+        transform: scale(2);
+        color: white;
+        background: radial-gradient(
+          circle at 24.1% 68.8%,
+          rgb(50, 50, 50) 0%,
+          rgb(0, 0, 0) 99.4%
+        );
+        cursor: pointer;
+      }
+      header {
+        font-size: 21px;
+        text-align: center;
+        padding: 15px 17px;
+        color: white;
+        margin: 0;
+        padding: 3px;
+      }
+       .photoGrid {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+        max-width: 1170px;
+        border-radius: 7px;
+        margin: 0 auto;
+      }
+      .animation-1st-pic:hover {
+        transform: rotate(360);
+        transform: scale(1.10);
+        filter: contrast(50%);
+        transition: all 300ms ease-in-out;
+      }
+
+       .four-photo-grid {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+        max-width: 1170px;
+        margin: 0 auto;
+        padding-top: 15px;
+      }
+       .four-photo-grid img {
+        height: 350px;
+        transition: all 150ms ease-in-out;
+      }
+       .four-photo-grid img:hover {
+        transform: scale(1.03);
+      }
+
+       img {
+        height: auto;
+        width: 100%;
+        border-radius: 10px;
+       }
+
+       h1,
+       h2 {
+        text-align: center;
+        font-size: 30px;
+        color:rgb(216, 103, 77) ;
+      }
+
+       .them {
+        background: black;
+        color: white;
+        font-size: 20px;
+      }
+
+       .them .container {
+        background: radial-gradient(
+          circle at 24.1% 68.8%,
+          rgb(50, 50, 50) 0%,
+          rgb(0, 0, 0) 99.4%
+        );
+      }
+       .them header {
+        color: white;
+      }
+       button {
+        display: block;
+        margin: 0 auto;
+        color: black;
+        background: linear-gradient(110.3deg, rgb(238, 179, 123) 8.7%, rgb(216, 103, 77) 47.5%, rgb(114, 43, 54) 89.1%);;
+        padding: 12px 16px;
+        font-size: 15px;
+        transition: all 150ms linear;
+        border: solid 1px white;
+        border-radius: 12px;
+        margin-bottom: 30px;
+        margin-top: 40px;
+        text-transform: uppercase;
+        font-weight: bolder;
+      }
+       .them a,
+       button {
+        color: white;
+      }
+       button:hover {
+        color: black;
+        background: radial-gradient(
+          circle at 24.1% 68.8%,
+          rgb(50, 50, 50) 0%,
+          rgb(0, 0, 0) 99.4%
+        );
+        cursor: pointer;
+      }
+
+       .dark {
+        background: linear-gradient(110.3deg, rgb(238, 179, 123) 8.7%, rgb(216, 103, 77) 47.5%, rgb(114, 43, 54) 89.1%);
+        color: white;
+        font-size: 15px;
+        border-radius: 70px;
+        padding: 12px 17px;
+        text-transform: uppercase;
+        font-weight: bolder;
+        transition: all 150ms ease-in-out;
+        display: block;
+        margin:0 auto;
+      }
+       .dark:hover {
+        background: white;
+        color: black;
+
+       .header {
+        padding: 0;
+        margin: 0;
+        color: rgb(216, 103, 77);
+      }
+       .animation-1st-pic {
+        transition: all 150ms ease-in-out;
+      }
+
+
+
+       .read {
+        font-size: 19px;
+        font-weight: bolder;
+        padding: 10px;
+        margin-bottom: 30px;
+      }
+       .read:hover {
+        text-decoration: none;
+        color: plum;
+      }
+   
