@@ -1,4 +1,9 @@
-
+a #dots{
+        text-decoration:none;
+        font-size: 20px;
+        font-weight: bolder;
+        
+      }
       .container {
         background: #ffff;
         max-width: 1200px;
@@ -36,6 +41,7 @@
         border-radius: 5px;
       }
       #myEmail:hover {
+        transition:all 150ms ease-in-out;
         transform: scale(2);
         color: white;
         background: radial-gradient(
@@ -182,4 +188,5 @@
         text-decoration: none;
         color: plum;
       }
+      
    
